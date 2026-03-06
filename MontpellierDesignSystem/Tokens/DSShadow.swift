@@ -1,6 +1,6 @@
 import SwiftUI
 
-public struct Shadow {
+public struct Shadow: Sendable {
     public let color: Color
     public let radius: CGFloat
     public let x: CGFloat
