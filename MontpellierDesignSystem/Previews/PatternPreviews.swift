@@ -171,4 +171,121 @@ private struct AccordionPatternPreview: View {
     }
 }
 
+// MARK: Screen 1 — Progress tracker
+
+#Preview("Progress Screen") {
+    DSScreen {
+        DSSection(title: "DSStepperView — Progress timeline") {
+            DSCard {
+                DSStepperView(steps: [
+                    DSStep(title: "Submitted", date: "12 Jan 2025", state: .completed),
+                    DSStep(title: "Under review", date: "19 Jan 2025", state: .active),
+                    DSStep(title: "Decision", state: .pending)
+                ])
+            }
+        }
+
+        DSSection(title: "DSDocumentListItem — Attachments") {
+            DSCard {
+                VStack(spacing: 0) {
+                    DSDocumentListItem(fileName: "Q1 Report", fileType: "PDF", date: "12 Jan 2025", iconSymbol: "doc.text.fill", iconColor: DSColor.error)
+                    Divider()
+                    DSDocumentListItem(fileName: "Project Summary", fileType: "PDF", date: "9 Jan 2025", iconSymbol: "doc.fill", iconColor: DSColor.info)
+                    Divider()
+                    DSDocumentListItem(fileName: "Team Photos", fileType: "JPG", date: "15 Jan 2025", iconSymbol: "photo.fill", iconColor: DSColor.scoreFair)
+                }
+            }
+        }
+    }
+}
+
+// MARK: Screen 2 — Dashboard
+
+private struct DashboardScreenPreview: View {
+    @State private var tab = 0
+
+    var body: some View {
+        VStack(spacing: 0) {
+            // Dark hero header (app-level pattern — not a DS layout)
+            ZStack(alignment: .bottomLeading) {
+                DSColor.surface.ignoresSafeArea(edges: .top)
+                VStack(alignment: .leading, spacing: DSSpacing.xs) {
+                    Text("Hello, Alex!")
+                        .font(DSTypography.caption)
+                        .foregroundStyle(.white.opacity(0.7))
+                    Text("Good morning.")
+                        .font(DSTypography.display)
+                        .foregroundStyle(.white)
+                }
+                .padding(DSSpacing.lg)
+            }
+            .frame(height: 160)
+
+            DSScreen {
+                DSSection(title: "DSSegmentedControl — Navigation tabs") {
+                    DSSegmentedControl(
+                        options: ["Progress", "Files", "Tasks"],
+                        selectedIndex: $tab
+                    )
+                }
+
+                DSSection(title: "DSHeroCard — Featured item") {
+                    DSHeroCard(
+                        imageName: "placeholder",
+                        title: "Product Launch",
+                        subtitle: "Alex Johnson · Design Team"
+                    )
+                }
+            }
+        }
+    }
+}
+
+#Preview("Dashboard Screen") {
+    DashboardScreenPreview()
+}
+
+// MARK: Screen 3 — Chat
+
+private struct ChatScreenPreview: View {
+    @State private var message = ""
+
+    var body: some View {
+        VStack(spacing: 0) {
+            ScrollView {
+                VStack(alignment: .leading, spacing: DSSpacing.md) {
+                    DSSection(title: "DSChatBubble — Conversation") {
+                        DSChatBubble(message: "Reminder: please upload the required files.", alignment: .leading)
+                        DSChatBubble(message: "We've received your submission. Thank you.", alignment: .leading)
+                        DSChatBubble(message: "Great, thank you!", alignment: .trailing)
+                    }
+
+                    DSSection(title: "DSMetricCard") {
+                        DSMetricCard(
+                            label: "Completion Rate",
+                            value: 82,
+                            supportingText: "Based on 1,245 data points"
+                        )
+                    }
+
+                    DSSection(title: "DSBadge — Tags") {
+                        HStack(spacing: DSSpacing.sm) {
+                            DSBadge(label: "Data quality", color: DSColor.info)
+                            DSBadge(label: "348", color: DSColor.slate)
+                        }
+                    }
+                }
+                .padding(DSSpacing.lg)
+            }
+            .background(DSColor.background)
+
+            DSMessageInputBar(text: $message) {}
+        }
+    }
+}
+
+#Preview("Chat Screen") {
+    ChatScreenPreview()
+}
+
 #endif

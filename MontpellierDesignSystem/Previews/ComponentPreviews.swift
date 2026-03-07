@@ -280,4 +280,197 @@ import SwiftUI
     }
 }
 
+// MARK: DSStepperView
+
+#Preview("DSStepperView") {
+    DSScreen {
+        DSSection(title: "DSStepperView") {
+            DSCard {
+                DSStepperView(steps: [
+                    DSStep(title: "Submitted", date: "12 Jan 2025", state: .completed),
+                    DSStep(title: "Under review", date: "19 Jan 2025", state: .active),
+                    DSStep(title: "Decision", state: .pending)
+                ])
+            }
+        }
+    }
+}
+
+// MARK: DSSegmentedControl
+
+private struct SegmentedControlPreview: View {
+    @State private var selected = 0
+    var body: some View {
+        DSScreen {
+            DSSection(title: "DSSegmentedControl") {
+                DSSegmentedControl(
+                    options: ["Progress", "Documents", "Tasks"],
+                    selectedIndex: $selected
+                )
+            }
+            DSSection(title: "DSSegmentedControl — Two options") {
+                DSSegmentedControl(
+                    options: ["Active", "Resolved"],
+                    selectedIndex: $selected
+                )
+            }
+        }
+    }
+}
+
+#Preview("DSSegmentedControl") {
+    SegmentedControlPreview()
+}
+
+// MARK: DSHeroCard
+
+#Preview("DSHeroCard") {
+    DSScreen {
+        DSSection(title: "DSHeroCard — Default aspect ratio") {
+            DSHeroCard(
+                imageName: "placeholder",
+                title: "Product Launch",
+                subtitle: "Alex Johnson · Design Team"
+            )
+        }
+        DSSection(title: "DSHeroCard — Square") {
+            DSHeroCard(
+                imageName: "placeholder",
+                title: "Project Overview",
+                aspectRatio: 1
+            )
+        }
+    }
+}
+
+// MARK: DSChatBubble
+
+#Preview("DSChatBubble") {
+    DSScreen {
+        DSSection(title: "DSChatBubble — Received (.leading)") {
+            DSChatBubble(message: "Reminder: please upload the required files.", alignment: .leading)
+            DSChatBubble(message: "We've received your submission. Thank you.", alignment: .leading)
+        }
+        DSSection(title: "DSChatBubble — Sent (.trailing)") {
+            DSChatBubble(message: "Here is the report you requested.", alignment: .trailing)
+        }
+        DSSection(title: "DSChatBubble — Conversation") {
+            DSChatBubble(message: "Hello! How can I help you today?", alignment: .leading)
+            DSChatBubble(message: "I need to submit my project report.", alignment: .trailing)
+            DSChatBubble(message: "Of course. Please attach the file below.", alignment: .leading)
+        }
+    }
+}
+
+// MARK: DSMessageInputBar
+
+private struct MessageInputBarPreview: View {
+    @State private var text = ""
+    var body: some View {
+        VStack(spacing: 0) {
+            DSScreen {
+                DSSection(title: "DSMessageInputBar") {
+                    DSChatBubble(message: "Type something in the input below.", alignment: .leading)
+                }
+            }
+            DSMessageInputBar(text: $text) {}
+        }
+    }
+}
+
+#Preview("DSMessageInputBar") {
+    MessageInputBarPreview()
+}
+
+// MARK: DSMetricCard
+
+#Preview("DSMetricCard") {
+    DSScreen {
+        DSSection(title: "DSMetricCard — Default (primary)") {
+            DSMetricCard(
+                label: "Completion Rate",
+                value: 82,
+                supportingText: "Based on 1,245 data points"
+            )
+        }
+        DSSection(title: "DSMetricCard — Fair") {
+            DSMetricCard(
+                label: "Target Progress",
+                value: 54,
+                supportingText: "340 items reviewed",
+                color: DSColor.scoreFair
+            )
+        }
+        DSSection(title: "DSMetricCard — Critical") {
+            DSMetricCard(
+                label: "Approval Rate",
+                value: 18,
+                color: DSColor.scoreCritical
+            )
+        }
+    }
+}
+
+// MARK: DSDocumentListItem
+
+#Preview("DSDocumentListItem") {
+    DSScreen {
+        DSSection(title: "DSDocumentListItem") {
+            DSCard {
+                VStack(spacing: 0) {
+                    DSDocumentListItem(
+                        fileName: "Q1 Report",
+                        fileType: "PDF",
+                        date: "12 Jan 2025",
+                        iconSymbol: "doc.text.fill",
+                        iconColor: DSColor.error
+                    )
+                    Divider()
+                    DSDocumentListItem(
+                        fileName: "Project Summary",
+                        fileType: "PDF",
+                        date: "9 Jan 2025",
+                        iconSymbol: "doc.fill",
+                        iconColor: DSColor.info
+                    )
+                    Divider()
+                    DSDocumentListItem(
+                        fileName: "Team Photos",
+                        fileType: "JPG",
+                        date: "15 Jan 2025",
+                        iconSymbol: "photo.fill",
+                        iconColor: DSColor.scoreFair
+                    )
+                }
+            }
+        }
+    }
+}
+
+// MARK: DSListItem — ViewBuilder trailing
+
+#Preview("DSListItem — ViewBuilder trailing") {
+    DSScreen {
+        DSSection(title: "DSListItem — ViewBuilder trailing") {
+            DSCard {
+                VStack(spacing: 0) {
+                    DSListItem(title: "Status") {
+                        DSBadge(label: "Active", color: DSColor.success)
+                    }
+                    Divider()
+                    DSListItem(title: "Priority", subtitle: "Set by case manager") {
+                        DSStatusDot(color: DSColor.scoreCritical, size: 10)
+                    }
+                    Divider()
+                    DSListItem(title: "Notifications") {
+                        Image(systemName: "chevron.right")
+                            .font(DSTypography.caption)
+                            .foregroundStyle(DSColor.slate)
+                    }
+                }
+            }
+        }
+    }
+}
+
 #endif

@@ -29,11 +29,19 @@ public enum DSColor {
     /// Secondary / caption text — adaptive.
     public static let slate = Color(.secondaryLabel)
 
+    // MARK: - Surfaces (fixed)
+
+    /// Dark navy surface — hero header backgrounds, bottom tab bar.
+    public static let surface = Color(hex: 0x1C2438)
+
     // MARK: - Semantic
 
     public static let success = Color(hex: 0x3DB87A)
     public static let warning = Color(hex: 0xF59E0B)
     public static let error   = Color(hex: 0xEF4444)
+
+    /// Informational blue — active stepper step, info indicators.
+    public static let info    = Color(hex: 0x3B82F6)
 
     // MARK: - Score status
 

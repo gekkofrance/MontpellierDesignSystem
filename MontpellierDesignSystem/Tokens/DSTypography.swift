@@ -4,6 +4,9 @@ public enum DSTypography {
 
     // MARK: - Scale
 
+    /// Extra-large display — greeting headlines, dashboard hero text.
+    public static let display      = Font.system(size: 48, weight: .bold)
+
     /// Display — hero screens, onboarding headlines.
     public static let hero         = Font.system(size: 34, weight: .bold)
 
