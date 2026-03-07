@@ -1,0 +1,496 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.MontpellierDesignSystem-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/sources",
+      "importPath" : "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSBadge.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSBanner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSIconTile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSListItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSPrimaryButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSProgressBar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSProgressRing.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSSecondaryButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSStatusDot.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSSummaryTile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Layout/DSAccordionSection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Layout/DSScreen.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Layout/DSSection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/PreviewData/PreviewData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Previews/ComponentPreviews.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Previews/LayoutPreviews.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Previews/PatternPreviews.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSColor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSRadius.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSShadow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSSpacing.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSTypography.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Utilities/Color+Hex.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MontpellierDesignSystem",
+      "moduleOutputPath" : "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/Modules/MontpellierDesignSystem.swiftmodule",
+      "objects" : [
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSBadge.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSBanner.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSCard.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSIconTile.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSListItem.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSPrimaryButton.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSProgressBar.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSProgressRing.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSecondaryButton.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSStatusDot.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSummaryTile.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSAccordionSection.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSScreen.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSection.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/PreviewData.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/ComponentPreviews.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/LayoutPreviews.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/PatternPreviews.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSColor.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSRadius.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSShadow.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSpacing.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSTypography.swift.o",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/Color+Hex.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/include/MontpellierDesignSystem-Swift.h",
+        "-swift-version",
+        "6",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "montpellierdesignsystem"
+      ],
+      "outputFileMapPath" : "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/Modules/MontpellierDesignSystem.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSBadge.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSBanner.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSCard.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSIconTile.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSListItem.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSPrimaryButton.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSProgressBar.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSProgressRing.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSSecondaryButton.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSStatusDot.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSSummaryTile.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Layout/DSAccordionSection.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Layout/DSScreen.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Layout/DSSection.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/PreviewData/PreviewData.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Previews/ComponentPreviews.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Previews/LayoutPreviews.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Previews/PatternPreviews.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSColor.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSRadius.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSShadow.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSSpacing.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSTypography.swift",
+        "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Utilities/Color+Hex.swift"
+      ],
+      "tempsPath" : "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "MontpellierDesignSystem" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MontpellierDesignSystem",
+      "-package-name",
+      "montpellierdesignsystem",
+      "-c",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSBadge.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSBanner.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSCard.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSIconTile.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSListItem.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSPrimaryButton.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSProgressBar.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSProgressRing.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSSecondaryButton.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSStatusDot.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSSummaryTile.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Layout/DSAccordionSection.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Layout/DSScreen.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Layout/DSSection.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/PreviewData/PreviewData.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Previews/ComponentPreviews.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Previews/LayoutPreviews.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Previews/PatternPreviews.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSColor.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSRadius.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSShadow.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSSpacing.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSTypography.swift",
+      "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Utilities/Color+Hex.swift",
+      "-I",
+      "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/include/MontpellierDesignSystem-Swift.h",
+      "-swift-version",
+      "6",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "montpellierdesignsystem",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "MontpellierDesignSystem" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSBadge.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSBanner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSCard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSIconTile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSListItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSPrimaryButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSProgressBar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSProgressRing.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSSecondaryButton.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSStatusDot.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSSummaryTile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Layout/DSAccordionSection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Layout/DSScreen.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Layout/DSSection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/PreviewData/PreviewData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Previews/ComponentPreviews.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Previews/LayoutPreviews.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Previews/PatternPreviews.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSColor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSRadius.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSShadow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSSpacing.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSTypography.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Utilities/Color+Hex.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/sources"
+    },
+    "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

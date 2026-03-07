@@ -36,23 +36,25 @@ public struct DSAccordionSection<Content: View>: View {
                         .font(DSTypography.body)
                         .foregroundStyle(DSColor.ink)
                     Spacer()
-                    Image(systemName: isExpanded ? "chevron.up" : "chevron.down")
+                    Image(systemName: "chevron.down")
                         .font(DSTypography.caption)
                         .foregroundStyle(DSColor.slate)
+                        .rotationEffect(.degrees(isExpanded ? 180 : 0))
                         .accessibilityHidden(true)
                 }
                 .padding(DSSpacing.md)
             }
+            .buttonStyle(.plain)
             .accessibilityLabel("\(headerLabel). \(isExpanded ? "Collapse" : "Expand")")
             .accessibilityAddTraits(.isButton)
 
-            if isExpanded {
-                VStack(spacing: DSSpacing.sm) {
-                    content
-                }
-                .padding([.horizontal, .bottom], DSSpacing.md)
-                .transition(.opacity.combined(with: .move(edge: .top)))
+            VStack(spacing: DSSpacing.sm) {
+                content
             }
+            .padding([.horizontal, .bottom], DSSpacing.md)
+            .frame(height: isExpanded ? nil : 0, alignment: .top)
+            .opacity(isExpanded ? 1 : 0)
+            .clipped()
         }
         .background(DSColor.card, in: RoundedRectangle(cornerRadius: DSRadius.md))
         .shadow(

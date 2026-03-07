@@ -1,0 +1,173 @@
+{
+  "": {
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/master.swiftdeps"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSBadge.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSBadge.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSBadge.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSBadge~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSBadge.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSBadge.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSBanner.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSBanner.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSBanner.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSBanner~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSBanner.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSBanner.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSCard.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSCard.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSCard.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSCard~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSCard.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSCard.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSIconTile.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSIconTile.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSIconTile.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSIconTile~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSIconTile.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSIconTile.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSListItem.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSListItem.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSListItem.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSListItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSListItem.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSListItem.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSPrimaryButton.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSPrimaryButton.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSPrimaryButton.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSPrimaryButton~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSPrimaryButton.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSPrimaryButton.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSProgressBar.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSProgressBar.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSProgressBar.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSProgressBar~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSProgressBar.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSProgressBar.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSProgressRing.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSProgressRing.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSProgressRing.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSProgressRing~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSProgressRing.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSProgressRing.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSSecondaryButton.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSecondaryButton.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSecondaryButton.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSecondaryButton~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSecondaryButton.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSecondaryButton.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSStatusDot.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSStatusDot.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSStatusDot.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSStatusDot~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSStatusDot.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSStatusDot.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Components/DSSummaryTile.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSummaryTile.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSummaryTile.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSummaryTile~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSummaryTile.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSummaryTile.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Layout/DSAccordionSection.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSAccordionSection.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSAccordionSection.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSAccordionSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSAccordionSection.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSAccordionSection.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Layout/DSScreen.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSScreen.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSScreen.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSScreen~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSScreen.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSScreen.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Layout/DSSection.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSection.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSection.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSection.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSection.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/PreviewData/PreviewData.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/PreviewData.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/PreviewData.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/PreviewData~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/PreviewData.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/PreviewData.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Previews/ComponentPreviews.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/ComponentPreviews.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/ComponentPreviews.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/ComponentPreviews~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/ComponentPreviews.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/ComponentPreviews.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Previews/LayoutPreviews.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/LayoutPreviews.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/LayoutPreviews.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/LayoutPreviews~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/LayoutPreviews.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/LayoutPreviews.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Previews/PatternPreviews.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/PatternPreviews.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/PatternPreviews.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/PatternPreviews~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/PatternPreviews.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/PatternPreviews.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSColor.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSColor.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSColor.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSColor~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSColor.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSColor.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSRadius.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSRadius.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSRadius.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSRadius~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSRadius.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSRadius.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSShadow.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSShadow.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSShadow.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSShadow~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSShadow.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSShadow.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSSpacing.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSpacing.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSpacing.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSpacing~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSpacing.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSSpacing.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Tokens/DSTypography.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSTypography.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSTypography.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSTypography~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSTypography.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/DSTypography.dia"
+  },
+  "/Users/donreed/Documents/MontpellierDesignSystem/MontpellierDesignSystem/Utilities/Color+Hex.swift": {
+    "dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/Color+Hex.d",
+    "object": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/Color+Hex.swift.o",
+    "swiftmodule": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/Color+Hex~partial.swiftmodule",
+    "swift-dependencies": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/Color+Hex.swiftdeps",
+    "diagnostics": "/Users/donreed/Documents/MontpellierDesignSystem/.build/index-build/arm64-apple-macosx/debug/MontpellierDesignSystem.build/Color+Hex.dia"
+  }
+}
