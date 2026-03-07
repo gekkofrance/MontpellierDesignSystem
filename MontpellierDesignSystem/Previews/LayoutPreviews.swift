@@ -90,4 +90,36 @@ private struct AccordionPreview: View {
     AccordionPreview()
 }
 
+// MARK: DSTileGrid
+
+#Preview("DSTileGrid") {
+    DSScreen {
+        DSSection(title: "DSTileGrid — Equal size (varying content length)") {
+            DSTileGrid {
+                DSSummaryTile(title: "Score", value: "87")
+                DSSummaryTile(title: "Last sync", value: "2 hours ago")
+                DSSummaryTile(title: "Items", value: "1,204")
+                DSSummaryTile(title: "Completion rate", value: "94%")
+            }
+        }
+
+        DSSection(title: "DSTileGrid — Three columns") {
+            DSTileGrid(columns: 3) {
+                DSSummaryTile(title: "Score", value: "87")
+                DSSummaryTile(title: "Open", value: "3")
+                DSSummaryTile(title: "Done", value: "41")
+            }
+        }
+
+        DSSection(title: "LazyVGrid (no equalisation — for comparison)") {
+            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: DSSpacing.md) {
+                DSSummaryTile(title: "Score", value: "87")
+                DSSummaryTile(title: "Last sync", value: "2 hours ago")
+                DSSummaryTile(title: "Items", value: "1,204")
+                DSSummaryTile(title: "Completion rate", value: "94%")
+            }
+        }
+    }
+}
+
 #endif

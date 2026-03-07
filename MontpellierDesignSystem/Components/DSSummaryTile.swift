@@ -24,6 +24,7 @@ public struct DSSummaryTile: View {
                     .font(DSTypography.title)
 
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
 
         }
     }
