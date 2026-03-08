@@ -51,7 +51,7 @@ public struct DSIconCard: View {
                         .bold()
                         .foregroundStyle(DSColor.ink)
                         .fixedSize(horizontal: false, vertical: true)
-                        .lineLimit(3)
+                        .lineLimit(2, reservesSpace: true)
                         .multilineTextAlignment(.leading)
                     
                     Text(subtitle)
