@@ -37,8 +37,17 @@ public struct DSPrimaryButton: View {
             .frame(maxWidth: .infinity)
             .padding(DSSpacing.md)
         }
+        .buttonStyle(DSButtonStyle())
         .background(isLoading ? DSColor.primary.opacity(0.65) : DSColor.primary)
         .clipShape(RoundedRectangle(cornerRadius: DSRadius.md))
         .disabled(isLoading)
+    }
+}
+
+struct DSButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .scaleEffect(configuration.isPressed ? 0.95 : 1.0) // Shrink to 95%
+            .animation(.easeInOut(duration: 0.1), value: configuration.isPressed)
     }
 }
