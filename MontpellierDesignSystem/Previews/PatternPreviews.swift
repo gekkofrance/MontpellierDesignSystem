@@ -138,12 +138,7 @@ private struct AccordionPatternPreview: View {
         DSSection(title: "DSProgressRing — Score") {
             DSCard {
                 VStack(spacing: DSSpacing.lg) {
-                    DSProgressRing(value: 62, total: 100, color: DSColor.scoreFair) {
-                        VStack(spacing: DSSpacing.xs) {
-                            Text("62").font(DSTypography.numeric)
-                            Text("Fair").font(DSTypography.caption).foregroundStyle(DSColor.slate)
-                        }
-                    }
+                  DSProgressRing(score: 62)
                     .frame(width: 140, height: 140)
                     .frame(maxWidth: .infinity)
 
