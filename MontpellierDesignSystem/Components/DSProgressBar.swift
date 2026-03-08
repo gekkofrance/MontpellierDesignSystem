@@ -10,7 +10,7 @@ public struct DSProgressBar: View {
     public init(
         progress: Double,
         color: Color = DSColor.primary,
-        height: CGFloat = DSSpacing.xs
+        height: CGFloat = DSSpacing.md
     ) {
         self.progress = progress
         self.color    = color
@@ -30,5 +30,6 @@ public struct DSProgressBar: View {
         }
         .frame(height: height)
         .clipShape(Capsule())
+        .padding(.vertical, DSSpacing.md)
     }
 }

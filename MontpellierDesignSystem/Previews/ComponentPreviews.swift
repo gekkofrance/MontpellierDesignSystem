@@ -6,6 +6,9 @@ import SwiftUI
 #Preview("Design System Gallery") {
     ScrollView {
         VStack(spacing: DSSpacing.lg) {
+           DSProgressRing(score: 76)
+           DSProgressRing(score: 76, icon: "star.fill")
+        
             
             // 1. DSCard
             DSSection(title: "DSCard") {
@@ -27,12 +30,6 @@ import SwiftUI
                     isActive: false,
                     action: {}
                 )
-                DSCard {
-                    VStack(alignment: .leading, spacing: DSSpacing.sm) {
-                        Text("Multi-line content").font(DSTypography.bodyBold)
-                        Text("Supporting detail text that wraps.").font(DSTypography.caption)
-                    }
-                }
             }
             
             // 2. DSListItem
