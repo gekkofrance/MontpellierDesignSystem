@@ -6,10 +6,7 @@ import SwiftUI
 #Preview("Design System Gallery") {
     ScrollView {
         VStack(spacing: DSSpacing.lg) {
-           DSProgressRing(score: 76)
-           DSProgressRing(score: 76, icon: "star.fill")
-        
-            
+           
             // 1. DSCard
             DSSection(title: "DSCard") {
                 DSCard { Text("Simple card").font(DSTypography.body) }
@@ -92,7 +89,8 @@ import SwiftUI
             // 9. Progress Components
             DSSection(title: "Progress") {
                 DSProgressBar(progress: 0.6, color: DSColor.primary)
-                DSProgressRing(value: 87, total: 100) { Text("87") }.frame(width: 80, height: 80)
+                DSProgressRing(score: 76)
+                DSProgressRing(score: 76, icon: "star.fill")
             }
             
             // 10. Navigation & Content
