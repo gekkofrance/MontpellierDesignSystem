@@ -120,9 +120,9 @@ import SwiftUI
 public struct DSProgressRing: View {
     
 public let score: Double
-public var icon: String = ""
+public var icon: String
     
-    public init(score: Double, icon: String) {
+    public init(score: Double, icon: String = "") {
         self.score = score
         self.icon = icon
     }
