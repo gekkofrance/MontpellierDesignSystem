@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DSIconCard: View {
+public struct DSIconCard: View {
     
     public var title: String
     public var subtitle: String
@@ -40,7 +40,7 @@ struct DSIconCard: View {
     }
     
     
-    var body: some View {
+    public var body: some View {
         Button(action: action) {
             DSCard {
                 VStack(alignment: .leading, spacing: DSSpacing.sm) {
