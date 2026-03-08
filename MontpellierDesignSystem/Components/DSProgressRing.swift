@@ -117,16 +117,16 @@ import SwiftUI
 
 import SwiftUI
 
-struct DSProgressRing: View {
+public struct DSProgressRing: View {
     
-    let score: Double
-    var icon: String = ""
+public let score: Double
+public var icon: String = ""
     
     private var normalizedScore: Double { min(max(score / 100, 0), 1) }
     private var color: Color { score < 40 ? .red : score < 70 ? .orange : .green }
     private var label: String { score < 40 ? "Low" : score < 70 ? "Medium" : "High" }
 
-    var body: some View {
+    public var body: some View {
         // We use a ZStack as our canvas.
         // The .containerRelativeFrame determines the master size.
         ZStack {
