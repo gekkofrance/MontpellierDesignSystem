@@ -122,6 +122,11 @@ public struct DSProgressRing: View {
 public let score: Double
 public var icon: String = ""
     
+    public init(score: Double, icon: String) {
+        self.score = score
+        self.icon = icon
+    }
+    
     private var normalizedScore: Double { min(max(score / 100, 0), 1) }
     private var color: Color { score < 40 ? .red : score < 70 ? .orange : .green }
     private var label: String { score < 40 ? "Low" : score < 70 ? "Medium" : "High" }
